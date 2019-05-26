@@ -37,8 +37,8 @@ class ReportError extends Component {
         method: 'POST',
         headers: {'Content-Type':'application/json'},
         body: JSON.stringify({
-          from: 'Error Report <mail@mg.winmonopolet.com>',
-          to: 'mail@winmonopolet.com',
+          from: 'Error Report <mail@mg.glitterhoof.net>',
+          to: 'tg90nor@gmail.com',
           subject: '[REPORT] ' + this.props.name + " ["+this.props.id+"] : " + this.state.option_selected,
           text: "Feilbeskrivelse: " + this.state.report_text
         })

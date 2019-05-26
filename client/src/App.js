@@ -12,6 +12,7 @@ import { Menu, Container} from 'semantic-ui-react'
 import { sortByDistance, geo_options, sortWithFilters } from './utilities.js'
 import { ClipLoader } from 'react-spinners'
 import About from './components/About'
+import Login from './components/Login'
 import ReactSVG from 'react-svg'
 import ReactGA from 'react-ga';
 
@@ -197,6 +198,7 @@ class App extends Component {
               <Container style={{marginLeft: "5px"}}>
                 <SearchBar items={this.state.searchItems} returnresult={this.returnResult} initvalue={this.state.closestStore}/>
               </Container>
+              <Login />
               <About />
             </Menu>
           </div>

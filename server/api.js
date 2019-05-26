@@ -215,8 +215,8 @@ Since the naming convetion between vinmonopolet and Untappd is different, it is 
       if(logs){
         attach = new mailgun.Attachment({data: logs, filename: "info_logs.txt"});
         var data = {
-          from: 'Logger <mail@mg.winmonopolet.com>',
-          to: 'mail@winmonopolet.com',
+          from: 'WinMonopolet Logger <mail@mg.glitterhoof.net>',
+          to: 'tg90nor@gmail.com',
           subject: '[INFO LOGS] ' + logger.time_now(),
           text: 'Info logs for winmonopolet.com are attached below',
           attachment: attach
