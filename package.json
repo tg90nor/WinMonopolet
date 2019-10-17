@@ -18,7 +18,10 @@
     "request-promise-native": "^1.0.5",
     "sqlite3": "^4.0.4",
     "sqlite3-transactions": "^0.0.5",
-    "vinmonopolet": "^5.1.0"
+    "vinmonopolet": "^5.1.0",
+    "yarn": "^1.19.1",
+    "qs": "^6.9.0",
+    "express-session": "^1.17.0"
   },
   "scripts": {
     "test": "test"

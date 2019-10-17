@@ -1,0 +1,6 @@
+module.exports = {
+  untappdClientId: 'your-untappd-app-client-id',
+  untappdClientSecret: 'your-untappd-app-client-secret',
+  untappdClientState: 'random-string',
+  baseURL: 'http://localhost:5000',
+}
